@@ -19,6 +19,13 @@ unit DelphiZXingQRCode;
  * limitations under the License.
 *)
 
+(*
+ * Additional modification by Niels Tjornhoj-Thomsen to add exception on 
+ * too large code matrix.  Also added a AsSvg method which returns an SVG graphic
+ * of the QR code.
+ *
+ * https://github.com/kanoop/DelphiZXingQRCode
+*)
 
 interface
 

@@ -19,3 +19,8 @@ A sample Delphi project is provided in the TestApp folder to demonstrate how to 
 Simply add the DelphiZXIngQRCode.pas to the DelphiZXingQRCodeTestApp Delphi project and compile.
 
 [Provided by Debenu]
+
+# Additions #
+
+Additional modification by Niels Tjornhoj-Thomsen to add exception on too large code matrix.  
+Also added a AsSvg method which returns an SVG graphic of the QR code.
